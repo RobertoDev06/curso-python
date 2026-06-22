@@ -3,6 +3,6 @@
 nomeLoja = "Mercadinho"
 
 def mostrar_loja():
-    print(nomeLoja)
+    return nomeLoja
 
-mostrar_loja()
+print(mostrar_loja())

@@ -1,11 +1,10 @@
 # Cadastro de Aluno
 
 def cadastrarAluno(nome, curso):
-    print(f"Nome: {nome}")
-    print(f"Curso: {curso}")
+    return f"Nome: {nome}\nCurso: {curso}"
 
 # Argumentos posicionais
-cadastrarAluno("Paulo", "Python")
+print(cadastrarAluno("Paulo", "Python"))
 
 # Argumentos nomeados
-cadastrarAluno(nome="Maria", curso="Informática")
+print(cadastrarAluno(nome="Maria", curso="Informática"))

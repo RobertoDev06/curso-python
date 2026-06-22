@@ -1,8 +1,7 @@
 # Entrega de Produto
 
 def Entrega(produto, endereco):
-    print(f"Produto {produto}")
-    print(f"Endereço: {endereco}")
+    return f"Produto: {produto}\nEndereço: {endereco}"
 
-Entrega("Caderno", "Fortaleza")
-Entrega(produto="Lapis", endereco="Bahia")
+print(Entrega("Caderno", "Fortaleza"))
+print(Entrega(produto="Lápis", endereco="Bahia"))

@@ -1,9 +1,7 @@
 # Agendamento de Consulta
 
 def Consulta(paciente, horario):
-    print(f"Paciente {paciente}")
-    print(f"Horario {horario}")
+    return f"Paciente: {paciente}\nHorário: {horario}"
 
-Consulta ("Paulo Roberto" , "18:00")
-
-Consulta (horario="17h", paciente="Franncisco Roberto")
+print(Consulta("Paulo Roberto", "18:00"))
+print(Consulta(horario="17h", paciente="Francisco Roberto"))

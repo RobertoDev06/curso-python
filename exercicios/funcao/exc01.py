@@ -4,7 +4,9 @@ def Pedido():
     lanche = input("Qual lanche você deseja? ")
     bebida = input("Qual bebida você deseja? ")
 
-    print(f"Lanche: {lanche}")
-    print(f"Bebida: {bebida}")
+    return lanche, bebida
 
-Pedido()
+    lanche, bebida = Pedido()
+
+print(f"Lanche: {lanche}")
+print(f"Bebida: {bebida}")
